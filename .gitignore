@@ -1,0 +1,44 @@
+# ---- Python virtual environments ----
+nli_env/
+venv/
+env/
+
+# ---- Python cache and logs ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# ---- Large datasets and audio files ----
+indic_dataset/
+*.wav
+*.mp3
+*.zip
+*.tar
+*.rar
+*.7z
+
+# ---- Model and data files ----
+# Keep model files (.pkl) for Streamlit app
+*.joblib
+*.h5
+*.pt
+*.bin
+*.safetensors
+
+# Ignore large generated datasets (re-creatable)
+*.csv
+
+# ---- Temporary or local files ----
+temp.wav
+temp_audio.wav
+*.tmp
+
+# ---- Jupyter / Streamlit cache ----
+.ipynb_checkpoints/
+.streamlit/
+
+# ---- OS-specific files ----
+.DS_Store
+Thumbs.db
