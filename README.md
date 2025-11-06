@@ -95,26 +95,11 @@ This project uses **HuBERT (Hidden-Unit BERT)**, a **self-supervised speech mode
 | Language | Python |
 | ML Framework | PyTorch, Transformers |
 | Feature Extraction | Librosa (MFCCs), HuBERT |
-| Visualization | Matplotlib, Seaborn |
+| Visualization | Matplotlib |
 | Web App | Streamlit |
 | Data Handling | NumPy, Pandas |
 
 
-1️⃣ Clone Repository  
-git clone https://github.com/<your-username>/Native-Language-Identification.git
-cd Native-Language-Identification
-2️⃣ Create Environment & Install Dependencies
-python -m venv venv
-source venv/bin/activate      # For Linux/Mac
-venv\Scripts\activate         # For Windows
-
-pip install -r requirements.txt
-3️⃣ Train Model
-python src/train_model.py
-4️⃣ Evaluate
-python src/evaluate_model.py
-5️⃣ Run the Streamlit App
-streamlit run src/app.py
 📊 Results & Insights
 Experiment	Feature	Model	Accuracy	Observation
 Adult Speech	MFCC	CNN	99%	Baseline accuracy
@@ -123,16 +108,7 @@ Cross-Age	HuBERT	Transformer	99%	Good generalization
 Sentence-Level	HuBERT	Transformer	99%	Richer speech context helps
 
 
-🔮 Future Work
-Expand to more Indian languages and dialects
-
-Try WavLM, Whisper, or SpeechT5 for comparison
-
-Add real-time speech inference
-
-Study code-switched speech (mix of English + regional language)
-
 
 
 👩‍💻 Project Lead: **Sharon Elsa Binu**
-📜 License:This project is released under the MIT License.
+
