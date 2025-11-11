@@ -110,5 +110,5 @@ Sentence-Level	HuBERT	Transformer	99%	Richer speech context helps
 
 
 
-👩‍💻 Project Lead: **Sharon Elsa Binu**
+👩‍💻 Project Lead: **Sharon Elsa Binu, Joel Garvaziz, Meera Krishna S**
 
